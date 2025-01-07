@@ -46,3 +46,21 @@ html {
   color: white;
   text-align: left;
 }
+/* grid */
+.container{
+  display:grid;
+  grid-template-columns: 30vw 60vw;
+  gap:0.5vw;
+}
+.header{
+  grid-column: 1/-1;
+  grid-row:1;
+}
+.sidebar{
+  grid-column: 1;
+  grid-row: 2/4;
+}
+.footer{
+  grid-column: 1/-1;
+  grid-row: 4;
+}
